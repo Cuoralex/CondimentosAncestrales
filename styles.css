@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#FFF8F0] text-[#333];
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-[#F77F00];
+  }
+}
+
+@layer components {
+  .btn-cta {
+    @apply bg-[#9A031E] hover:bg-[#588157] text-white;
+  }
+}
